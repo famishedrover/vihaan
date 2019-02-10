@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "617870672442",
+    "firebase_url": "https://ambicall.firebaseio.com",
+    "project_id": "ambicall",
+    "storage_bucket": "ambicall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617870672442:android:f024cab0665c0346",
+        "android_client_info": {
+          "package_name": "com.example.architgoyal.vihaan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617870672442-27aap0r89uuiu2ngcp8v88a2a55orgfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzalRT5PLd4PqOLCwQtK6JiS_ae8BE4NE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

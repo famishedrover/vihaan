@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:fillViewport="true">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.architgoyal.vihaan.FormActivity">
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/gradient2">-->
+            <!--<TextView-->
+                <!---->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text=" Name: "-->
+                <!--tools:layout_editor_absoluteX="16dp"-->
+                <!--tools:layout_editor_absoluteY="31dp" />-->
+
+            <!--<EditText-->
+                <!---->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:inputType="text"-->
+                <!--tools:layout_editor_absoluteX="60dp"-->
+                <!--tools:layout_editor_absoluteY="16dp" />-->
+
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/gradient"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="Name"
+                android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:radius="10dp"
+                android:layout_weight=".75" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/gradient"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="Email"
+                android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:radius="10dp"
+                android:layout_weight=".75" />
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--tools:layout_editor_absoluteX="0dp"-->
+            <!--tools:layout_editor_absoluteY="58dp"-->
+            <!--tools:ignore="MissingConstraints">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_email"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text=" E-Mail "-->
+                <!--tools:layout_editor_absoluteX="16dp"-->
+                <!--tools:layout_editor_absoluteY="31dp" />-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/et_email"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:inputType="text"-->
+                <!--tools:layout_editor_absoluteX="60dp"-->
+                <!--tools:layout_editor_absoluteY="16dp" />-->
+
+        <!--</LinearLayout>-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/gradient"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/tv_contactnumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="Contact No."
+                android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+            <EditText
+                android:id="@+id/et_contactnumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:radius="10dp"
+                android:layout_weight=".75" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/gradient"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/tv_gender"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="Gender"
+                android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+            <EditText
+                android:id="@+id/et_gender"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:radius="10dp"
+                android:layout_weight=".75" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/gradient"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/tv_age"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="Age"
+                android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+            <EditText
+                android:id="@+id/et_age"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:radius="10dp"
+                android:layout_weight=".75" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/gradient"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/tv_aadhar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="AADHAR No."
+                android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+            <EditText
+                android:id="@+id/et_aadhar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:radius="10dp"
+                android:layout_weight=".75" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emeargency Contact 1 Details : "
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="319dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/gradient"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/tv_emergency_name1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="Name"
+                android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+            <EditText
+                android:id="@+id/et_emergency_name1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:radius="10dp"
+                android:layout_weight=".75" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/gradient"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/tv_emergency_contact1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="Contact"
+                android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+            <EditText
+                android:id="@+id/et_emergency_contact1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:radius="10dp"
+                android:layout_weight=".75" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/gradient"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/tv_emergency_relation1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="Relation"
+                android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+            <EditText
+                android:id="@+id/et_emergency_relation1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:radius="10dp"
+                android:layout_weight=".75" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency Contact 2 details:"
+            android:textAlignment="center"
+            tools:ignore="MissingConstraints"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="319dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/gradient"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/tv_emergency_name2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="Name"
+                android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+            <EditText
+                android:id="@+id/et_emergency_name2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:radius="10dp"
+                android:layout_weight=".75" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/gradient"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/tv_emergency_contact2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="Contact"
+                android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+            <EditText
+                android:id="@+id/et_emergency_contact2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:radius="10dp"
+                android:layout_weight=".75" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/gradient"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tv_emergency_relation2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="Relation"
+                android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+            <EditText
+                android:id="@+id/et_emergency_relation2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:radius="10dp"
+                android:layout_weight=".75" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:drawableLeft="@drawable/ic_action_name_tick"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="125dp"
+            android:background="#11000000"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteY="472dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+

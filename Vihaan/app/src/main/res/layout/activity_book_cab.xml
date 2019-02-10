@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/gradient"
+    tools:context="com.example.architgoyal.vihaan.BookCabActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="@drawable/gradient" />
+
+    <TextView
+        android:id="@+id/tv_eta_ambulance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expected Time Of Arrival Of Ambulance:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <TextView
+        android:id="@+id/tv_eta_ambulance_time2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="20 Mins"
+        android:textColor="@color/cast_expanded_controller_text_color"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <Button
+        android:id="@+id/ambiroute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient2"
+        android:drawableLeft="@drawable/ic_action_name_bus"
+        android:text="Show Ambi Route"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:background="@drawable/gradient"
+        android:layout_height="64dp" />
+
+    <TextView
+        android:id="@+id/tv_eta_ambulance_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you feel the waiting time is high, you may book a cab!"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <Button
+        android:id="@+id/btn_book_cab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient2"
+        android:drawableLeft="@drawable/ic_action_name_taxi"
+        android:text="Book A Cab"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:id="@+id/tv_eta_ambulance_time3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expected Waiting Time : "
+        android:textColor="@color/wallet_bright_foreground_disabled_holo_light"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <TextView
+        android:id="@+id/tv_eta_ambulance_time4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6 Mins"
+        android:textColor="@color/wallet_bright_foreground_holo_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+
+</LinearLayout>
